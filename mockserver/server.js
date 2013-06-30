@@ -2,8 +2,8 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-app.get('/api/v2/:account/videos.json' , function(req, res) {
-  fs.readFile('xebia_videos.json', 'utf-8', function (err, data) {
+app.get('/orgs/:organization/members', function(req, res) {
+  fs.readFile('github_members.json', 'utf-8', function (err, data) {
     res.type('application/json; charset=utf-8');
     if (err) {
       res.send(500);

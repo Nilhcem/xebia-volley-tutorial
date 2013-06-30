@@ -1,6 +1,6 @@
 {
-  "name": "volley-vimeo-mock-server",
-  "description": "vimeo mock server",
+  "name": "xebia-volley-tuto-mock-server",
+  "description": "mock server",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

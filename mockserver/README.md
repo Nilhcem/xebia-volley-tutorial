@@ -10,5 +10,5 @@ $ node server
 You can then access it through:
 
 ```
-http://localhost:8080/api/v2/xebia/videos.json
+http://localhost:8080/orgs/xebia-france/members
 ```
